@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(100, 91, 88);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.navbar :hover {
+    color: violet;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.navbar :active {
+    color: orange;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.headerLink {
+    color: white;
+    text-decoration: none;
+}
+
+.imgLogo {
+    width: 50px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/banner.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.content-1 img {
+    margin-top: 50px;
+    width: 300px;
+}
+
+.content-1 h1 {
+    text-align: center;
+}
+
+.content-2 {
+    background-color: black;
+    color: white;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+}
+
+.content-icon {
+    text-align: center;
+}
+
+.content-header-tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.content-header-tea h5 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(100, 91, 88);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+footer h5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+#insta {
+    margin-right: 5px;
+}
+
+#tea-3 {
+    display: none;
+}
+
+#tea-1:hover {
+    display: none;
+}
+
+#tea-1:hover~#tea-3 {
+    display: flex;
+}
+

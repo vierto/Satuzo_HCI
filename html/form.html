@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGoat Form</title>
+    <link rel="stylesheet" href="../css/styleForm.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-container-header">
+            <img src="../assets/logo.png" alt="logo satuzo">
+        </div>
+        
+        <form action="index.html">
+            <!-- component 1 -->
+            <div class="form-field">
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input id="email" type="email" name="email">
+                </div>
+            </div>
+    
+            <div class="form-field">
+                <div>
+                    <label for="password">Password</label>
+                </div>
+                <div>
+                    <input id="password" type="password" name="password">
+                </div>
+            </div>
+    
+            <!-- component 2 -->
+            <div class="form-field">
+                <div>
+                    <label for="member-type">Member's type</label>
+                </div>
+                <div>
+                    <select name="member-type" id="member-type">
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                        <option value="platinum">Platinum</option>
+                    </select>
+                </div>
+            </div>
+    
+            <!-- component 3 -->
+            <div class="form-field">
+                <div>
+                    <label for="address">Address</label>
+                </div>
+                <div>
+                    <textarea name="address" id="address" cols="31" rows="5"></textarea>
+                </div>
+            </div>
+    
+            <!-- component 4 -->
+            <div class="form-aggrement">
+                <div>
+                    <input type="checkbox" name="aggrement" id="aggrement">
+                </div>
+                <div>
+                    <label for="aggrement">Terms and Services</label>
+                </div>
+            </div>
+    
+            <!-- component 5 -->
+            <div class="form-submit">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

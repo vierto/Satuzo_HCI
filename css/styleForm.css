@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background: radial-gradient(30% 40% at 40% 30%, rgba(32, 56, 97, 0.5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat, url(https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg) -25vw -100px no-repeat, #212429; */
+    background-image: url("https://orchidara13.files.wordpress.com/2013/11/url.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    user-select: none;
+    height: 1020px;
+}
+
+img {
+    width: 150px;
+}
+
+form {
+    background-color: plum;
+    padding: 20px;
+    border-radius: 15px;
+    padding-top: 5px;
+    margin-top: 100px;
+}
+
+.form-container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100px;
+    left: 30%;
+    padding: 30px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    border-radius: 300px;
+    position: absolute;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 15px auto;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.form-field input {
+    background-color: rgb(243, 196, 243);
+    color: black;
+    border-style: none;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-submit input {
+    width: 50%;
+    border-style: none;
+    background-color: rgb(243, 196, 243);
+    color: rgb(160, 98, 223);
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.form-submit input:hover {
+    background-color: rgb(221, 96, 221);
+    color: rgb(89, 52, 128);
+}
+
+.form-submit input:active {
+    background-color: rgb(78, 156, 230);
+    color: rgb(46, 48, 160);
+}
+
+.form-container {
+    min-width: 500px;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: plum;
+    border-radius: 15px;
+}
+
+.form-aggrement {
+    display: flex;
+    margin: auto;
+    width: 52%;
+    color: white;
+}
+
+#member-type {
+    width: 235px;
+    border-style: none;
+    background-color: rgb(243, 196, 243);
+    color: rgb(160, 98, 223);
+    border-radius: 6px;
+}
+
+#address {
+    border-style: none;
+    background-color: rgb(243, 196, 243);
+    color: black;
+    border-radius: 6px;
+}
