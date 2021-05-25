@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    /* background: radial-gradient(30% 40% at 40% 30%, rgba(32, 56, 97, 0.5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat, url(https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg) -25vw -100px no-repeat, #212429; */
     background-image: url("https://orchidara13.files.wordpress.com/2013/11/url.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
